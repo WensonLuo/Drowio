@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T08:16:00.630Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="gBx1DJDAyioxOcEur8xZ" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T09:14:01.013Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="o3adij1KgBTOH4MVIZRG" version="14.5.8" type="github">
   <diagram id="uNhbeHN_YKukI16IZ3Rf" name="Page-1">
-    <mxGraphModel dx="788" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="315" dy="288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,16 +83,16 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="560" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="425" y="622" />
+              <mxPoint x="425" y="614" />
               <mxPoint x="425" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WWeYNiVOzWscjV635nap-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="WWeYNiVOzWscjV635nap-38" target="eN-WV_VvRqyreEzH0uXg-95">
+        <mxCell id="WWeYNiVOzWscjV635nap-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sourcePerimeterSpacing=3;targetPerimeterSpacing=3;strokeWidth=1;shape=flexArrow;strokeColor=#8C8C8C;" edge="1" parent="1" source="WWeYNiVOzWscjV635nap-38" target="eN-WV_VvRqyreEzH0uXg-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WWeYNiVOzWscjV635nap-38" value="Att-CNN&lt;br&gt;Model" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="256.45000000000005" y="592" width="148.33" height="60" as="geometry" />
+          <mxGeometry x="256.45000000000005" y="584" width="148.33" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WWeYNiVOzWscjV635nap-41" value="Train&amp;amp;Validation" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="431.28" y="570" width="97.37" height="30" as="geometry" />

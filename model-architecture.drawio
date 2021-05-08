@@ -1,16 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T02:35:17.451Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="79tkREoZvvV64uqzm_SX" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T02:52:39.274Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="cJWmEOxgQiBOfsqZicYB" version="14.6.6" type="github">
   <diagram name="Page-1" id="099fd60b-425b-db50-ffb0-6b813814b670">
     <mxGraphModel dx="694" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GNvcfdCQOV_bqqbBSyqy-1" value="1D Convolution&lt;br&gt;(128,64)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="114" width="220" height="40" as="geometry" />
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-1" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="114" width="220" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="GNvcfdCQOV_bqqbBSyqy-2" value="Batch Normalization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="154" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GNvcfdCQOV_bqqbBSyqy-4" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.55;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-4" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.55;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;targetPerimeterSpacing=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="389.5" y="20" as="sourcePoint" />
             <mxPoint x="389.5" y="66" as="targetPoint" />
@@ -19,8 +16,56 @@
         <mxCell id="GNvcfdCQOV_bqqbBSyqy-5" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="70" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="GNvcfdCQOV_bqqbBSyqy-7" value="Dropout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="194" width="220" height="40" as="geometry" />
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-8" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="154" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-11" value="MaxPool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="194" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-12" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="234" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-15" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="274" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-18" value="MaxPool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="314" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-22" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="354" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-23" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="394" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-24" value="MaxPool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="474" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-26" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="434" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-27" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="514" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-28" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="554" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-29" value="MaxPool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="634" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-30" value="Conv1D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="594" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-31" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.55;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;targetPerimeterSpacing=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="790" as="sourcePoint" />
+            <mxPoint x="389.5" y="836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-32" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="840" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-33" value="Attention" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="674" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

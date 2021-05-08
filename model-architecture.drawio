@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T02:52:39.274Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="cJWmEOxgQiBOfsqZicYB" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T02:54:42.483Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="U7z4oMVx58quj7NN4Qgb" version="14.6.6" type="github">
   <diagram name="Page-1" id="099fd60b-425b-db50-ffb0-6b813814b670">
     <mxGraphModel dx="694" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -57,15 +57,24 @@
         </mxCell>
         <mxCell id="GNvcfdCQOV_bqqbBSyqy-31" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.55;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;targetPerimeterSpacing=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="389.5" y="790" as="sourcePoint" />
-            <mxPoint x="389.5" y="836" as="targetPoint" />
+            <mxPoint x="389.5" y="900" as="sourcePoint" />
+            <mxPoint x="389.5" y="946" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GNvcfdCQOV_bqqbBSyqy-32" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="840" width="120" height="34" as="geometry" />
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-32" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="860" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="GNvcfdCQOV_bqqbBSyqy-33" value="Attention" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="674" width="220" height="40" as="geometry" />
+          <mxGeometry x="280" y="688" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-34" value="Dense" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="728" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-35" value="Dropout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="768" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GNvcfdCQOV_bqqbBSyqy-39" value="Dense" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="808" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

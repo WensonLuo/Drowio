@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T12:57:08.788Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="oDKx-7b4fACyIM6UtKjA" version="14.9.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-19T12:58:38.365Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="aRnILtGItnRAFLWLmT60" version="14.9.4" type="github" pages="4">
   <diagram id="kCaByZ5uTPEI4nG0M9FS" name="纵向架构图">
     <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -177,7 +177,7 @@
             <mxPoint x="585" y="390" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1mitxYSGG7E51kXBLgho-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="1mitxYSGG7E51kXBLgho-29" target="1mitxYSGG7E51kXBLgho-40" parent="Jwvxv0HP_ygH0ZJZnXHm-1">
+        <mxCell id="1mitxYSGG7E51kXBLgho-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="1mitxYSGG7E51kXBLgho-29" target="SEVz-U-B4piJ0rv2fiqy-0" parent="Jwvxv0HP_ygH0ZJZnXHm-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="352" y="375" as="targetPoint" />
           </mxGeometry>
@@ -228,6 +228,20 @@
         </mxCell>
         <mxCell id="1mitxYSGG7E51kXBLgho-41" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.summing_function;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Jwvxv0HP_ygH0ZJZnXHm-1">
           <mxGeometry x="772" y="380" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SEVz-U-B4piJ0rv2fiqy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Jwvxv0HP_ygH0ZJZnXHm-1" source="SEVz-U-B4piJ0rv2fiqy-0" target="1mitxYSGG7E51kXBLgho-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SEVz-U-B4piJ0rv2fiqy-0" value="CNN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Jwvxv0HP_ygH0ZJZnXHm-1">
+          <mxGeometry x="390" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SEVz-U-B4piJ0rv2fiqy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Jwvxv0HP_ygH0ZJZnXHm-1" source="SEVz-U-B4piJ0rv2fiqy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEVz-U-B4piJ0rv2fiqy-1" value="短时傅里叶变换&lt;br&gt;STFT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Jwvxv0HP_ygH0ZJZnXHm-1">
+          <mxGeometry x="290" y="190" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

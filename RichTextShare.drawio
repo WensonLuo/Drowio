@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T11:22:43.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="t8RibXpfSNYilmU6Zvpw" version="21.3.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-12T00:39:26.901Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="imwnPz7HzOu5y6uH1IIc" version="21.3.6" type="github" pages="2">
   <diagram name="官方ImageSpan" id="jmLGyRtJv-uPEz8_w5s_">
-    <mxGraphModel dx="319" dy="346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="319" dy="346" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EU8mqazsEdh6MONM_Jk7" name="自定义ImageSpan">
-    <mxGraphModel dx="350" dy="379" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="597" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,9 +158,6 @@
         </mxCell>
         <mxCell id="f3y661lpTvq7a2kerKuJ-22" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=0;" vertex="1" parent="1">
           <mxGeometry x="391" y="280" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="f3y661lpTvq7a2kerKuJ-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="398" y="286" width="26" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

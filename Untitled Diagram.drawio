@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T12:41:08.987Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="txY_Xkr9MDDU0jseeZh9" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-30T12:50:01.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ZWbV6Tb3DjVHsAijuARx" version="22.0.8" type="github" pages="2">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="常用路线管理页">
     <mxGraphModel dx="1956" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s6iaUEBONo8S-nNz0pXx" name="顺路车主页">
-    <mxGraphModel dx="2394" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -501,7 +501,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DBH0jLhfZhS1wM54KbYj-53" value="4.1 action: ShowDriverInfoDialog" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="DBH0jLhfZhS1wM54KbYj-52">
+        <mxCell id="DBH0jLhfZhS1wM54KbYj-53" value="4.1 action: ClickDriverAvatar" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="DBH0jLhfZhS1wM54KbYj-52">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DBH0jLhfZhS1wM54KbYj-55" value="VM包装数据" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="DBH0jLhfZhS1wM54KbYj-8" parent="1">
@@ -558,7 +558,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DBH0jLhfZhS1wM54KbYj-66" value="5.1 action: InviteDriver" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="DBH0jLhfZhS1wM54KbYj-65">
+        <mxCell id="DBH0jLhfZhS1wM54KbYj-66" value="5.1 action: ClickInviteDriver" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="DBH0jLhfZhS1wM54KbYj-65">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DBH0jLhfZhS1wM54KbYj-67" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
@@ -635,7 +635,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DBH0jLhfZhS1wM54KbYj-86" value="6.1 action: ShowTimeDialog" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="DBH0jLhfZhS1wM54KbYj-85">
+        <mxCell id="DBH0jLhfZhS1wM54KbYj-86" value="6.1 action: ClickChangeTime" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="DBH0jLhfZhS1wM54KbYj-85">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DBH0jLhfZhS1wM54KbYj-87" value="6.2 event: ShowTimeDialog" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.263;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">

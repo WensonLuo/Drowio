@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T07:55:27.014Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="SUqBKiFAD-JHIr3BpvYk" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T08:35:13.238Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="-a1ZFocARTI-FbafMjgO" version="22.0.8" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
-    <mxGraphModel dx="1332" dy="293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1894" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,14 +31,13 @@
         <mxCell id="fytZe2nUgxtboZ6Lmw9K-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="590" y="390" width="10" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="fytZe2nUgxtboZ6Lmw9K-11" value="初始化页面数据" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-11" value="初始化页面数据" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1" source="fytZe2nUgxtboZ6Lmw9K-9">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="170" y="440" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="sourcePoint" />
             <mxPoint x="590" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="170" y="441" />
-              <mxPoint x="381" y="441" />
-              <mxPoint x="381" y="440" />
+              <mxPoint x="450" y="440" />
+              <mxPoint x="450" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -83,19 +82,125 @@
         <mxCell id="fytZe2nUgxtboZ6Lmw9K-25" value="2" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="fytZe2nUgxtboZ6Lmw9K-24">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fytZe2nUgxtboZ6Lmw9K-26" value="点击路线Item" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1" target="fytZe2nUgxtboZ6Lmw9K-9">
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-26" value="点击路线Item" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="170" y="550" as="sourcePoint" />
-            <mxPoint x="330" y="550" as="targetPoint" />
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="590" y="550" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="170" y="551" />
-              <mxPoint x="276" y="551" />
-              <mxPoint x="276" y="550" />
+              <mxPoint x="390" y="551" />
+              <mxPoint x="496" y="551" />
+              <mxPoint x="496" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fytZe2nUgxtboZ6Lmw9K-27" value="2.2 action: EditCommonRoute" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="fytZe2nUgxtboZ6Lmw9K-26">
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-27" value="2.1 action: EditCommonRoute" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="fytZe2nUgxtboZ6Lmw9K-26">
           <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-28" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1" target="fytZe2nUgxtboZ6Lmw9K-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="170" y="440" as="sourcePoint" />
+            <mxPoint x="330" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="440" />
+              <mxPoint x="340" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-30" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="170" y="549" as="sourcePoint" />
+            <mxPoint x="380" y="549" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="549" />
+              <mxPoint x="340" y="549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-32" value="请求页面数据&lt;br&gt;ModelToState" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="fytZe2nUgxtboZ6Lmw9K-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="630" y="450" />
+              <mxPoint x="630" y="470" />
+            </Array>
+            <mxPoint x="600" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-36" value="VM包装数据" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="fytZe2nUgxtboZ6Lmw9K-10" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="630" y="560" />
+              <mxPoint x="630" y="590" />
+            </Array>
+            <mxPoint x="605" y="590.015873015873" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-37" value="2.2 event: goToEditCommonRoute" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.263;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="600" as="sourcePoint" />
+            <mxPoint x="390" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-38" value="跳转编辑常用路线页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="600" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-39" value="点击添加路线" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint y="650" as="sourcePoint" />
+            <mxPoint x="160" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="650" />
+              <mxPoint x="150" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-40" value="3" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="fytZe2nUgxtboZ6Lmw9K-39">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-41" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="170" y="660" as="sourcePoint" />
+            <mxPoint x="380" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="660" />
+              <mxPoint x="340" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-42" value="点击添加路线" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="590" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="661" />
+              <mxPoint x="496" y="661" />
+              <mxPoint x="496" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-43" value="3.1 action: AddCommonRoute" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="fytZe2nUgxtboZ6Lmw9K-42">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-48" value="VM包装数据" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="670" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="630" y="700" />
+            </Array>
+            <mxPoint x="605" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-49" value="3.2 event: goToAddCommonRoute" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.263;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="710" as="sourcePoint" />
+            <mxPoint x="390" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fytZe2nUgxtboZ6Lmw9K-50" value="跳转添加常用路线页" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fytZe2nUgxtboZ6Lmw9K-49">
+          <mxGeometry x="0.696" relative="1" as="geometry">
+            <mxPoint x="20" y="13" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
